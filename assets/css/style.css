@@ -196,4 +196,64 @@ body{
  .news-card-content button:hover{
     background: #48bd87;   
  }
-
+/* donate sction start */
+.donate{
+    width: 1280px;
+    margin: 0 auto;
+}
+.donate-head{
+    width: 85%;
+    margin: 0px auto;
+}
+.donate-body{
+    width: 85%;
+    margin: 0px auto;
+}
+.donate-body input{
+    display: block;
+}
+.token h4 {
+    background: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px 0px 20px 35px;
+    transition: .3s linear;
+}
+.token h4:hover{
+    background: #C6E4D6;
+}
+/* input[type="number"] {
+    padding: 20px 100px;
+    display: block;
+    width: 70%;
+    margin: 30px auto;
+    border: none;
+} */
+.donate-body input {
+    display: block;
+    margin: 30px auto;
+    padding: 20px 100px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+button.btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #006A50;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button.btn:hover{
+    background: #48bd87;
+}
