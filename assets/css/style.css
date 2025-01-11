@@ -39,6 +39,8 @@ a{
 }
 body{
     background: #F5F5F5;
+    font-family: 'Fira Sans', sans-serif;
+
 }
 /* header section start */
 .hero{
@@ -79,6 +81,7 @@ body{
     transition: .5s all linear;
     cursor: pointer;
 } */
+ 
  .future{
     width: 1280px;
     margin: 0px auto;
@@ -256,4 +259,41 @@ button.btn {
 }
 button.btn:hover{
     background: #48bd87;
+}
+
+/* footer section start */
+footer{
+    width: 1280px;
+    margin-top: 50px;
+    margin: 0px auto;
+
+}
+.subscribe{
+    background: #C6E4D6;
+    border-radius: 20px;
+}
+.subscribe h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.subscribe-button{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input[type="email"] {
+    padding: 10px 110px;
+    border: none;
+    border-radius: 5px 0px 0px 10px;
+}
+.subscribe-button button{
+    padding: 10px;
+    background: #006A50;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
 }
